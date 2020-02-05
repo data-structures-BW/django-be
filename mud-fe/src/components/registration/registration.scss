@@ -50,17 +50,18 @@
         transition: all 0.3s ease;
         color: #f8f9fa;
         background: #27d46f;
+        border-radius: 5px;
         background-image: none;
         border-color: #f8f9fa;
       }
   
       button:hover {
-        color: #f39c12;
+        color: #27d46f;
         background-color: white;
-        border-color: #f39c12;
+        border-color: #27d46f;
       }
       .register-container {
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 30px;
         font-weight: 600;
       }
