@@ -8,7 +8,7 @@ import App from './App';
 import store from './store';
 import * as serviceWorker from './serviceWorker';
 //Styling
-import './index.css';
+
 
 ReactDOM.render(
     <Provider store={store}>

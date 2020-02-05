@@ -56,7 +56,7 @@ import {
        
         dispatch({ type: GET_ROOMS_START });
             return axiosWithAuth()
-            .get(`http://multi-user-dungeon-lambda.herokuapp.com/api/adv/getallrooms`)
+            .get(`https://cs25lambdamud.herokuapp.com/api/adv/getallrooms`)
             .then(res => {
                 console.log(res)
     

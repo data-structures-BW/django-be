@@ -1,6 +1,4 @@
 import axios from 'axios';
-// import axiosWithAuth from '../utils/axiosWithAuth'
-import { axiosWithAuth } from '../helpers'
 import {
     REGISTER_START,
     REGISTER_SUCCESS,
@@ -8,8 +6,6 @@ import {
     LOGIN_SUCCESS,
     LOGIN_FAIL,
     LOGIN_START,
-    PLAYER_SUCCESS,
-    PLAYER_START,
 } from './types';
 
 //User Registration endpoint
